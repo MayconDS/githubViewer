@@ -1,0 +1,112 @@
+body {
+  min-height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+}
+
+img {
+  width: 100%;
+} 
+/* Section Left */
+section.left {
+  height: 100vh;
+  width: 100%;
+  min-width: 420px;
+  max-width: 620px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+
+
+
+
+/* Section Right */
+section.right {
+  margin-left: 620px;
+}
+
+input#search {
+  color: white;
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.search button {
+  background-color: transparent;
+  color: white;
+  margin-left: 5px;
+  font-weight: bold;
+  background-color: #633BBC;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all ease 0.3s
+}
+.search button:hover {
+  opacity: 0.8
+}
+#blur-right {
+  
+  position: absolute;
+  width: 321px;
+  height: 321px;
+  left: 1327px;
+  top: -150px;
+  
+  background: #996DFF;
+  filter: blur(200px);
+
+}
+header {
+  
+  position: fixed;
+  margin-top: -80px;
+  background-color: #0D1117
+}
+.right-container {
+  
+  display: flex;
+  flex-direction: column;
+  margin: 15vh -70px;
+}
+.redirect-rep button{
+  color: white;
+  
+  margin-bottom: 35px;
+  
+}
+.redirect-rep button a {
+  font-weight: bold;
+  font-size: 17px
+  
+}
+
+nav.navbar {
+  display: flex;
+}
+.overview-box {
+  margin-right: 30px;
+}
+button.btn {
+  font-size: 0.93rem;
+  background-color: transparent;
+  padding-bottom: 10px;
+  color: #C9D1D9;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .4s;
+}
+button.btn:hover {
+  opacity: 0.9;
+}
+

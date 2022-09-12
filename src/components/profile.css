@@ -1,0 +1,67 @@
+.left-container {
+    margin: 8vh 10%;
+    display: flex;
+    flex-direction: column;
+
+    
+  }
+  .left-container .img-profile img{
+    width: 350px;
+    border-radius: 50%;
+  }
+  .user-profile h2 {
+    font-weight: 700;
+  font-size: 22px;
+  line-height: 30px
+  }
+  .user-profile span {
+    font-weight: 400;
+  font-size: 22px;
+  line-height: 20px;
+  color: #8B949E;
+  }
+  
+  .bio-profile {
+    margin-top: 15px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 20px;
+  
+    color: #C9D1D9;
+  }
+  
+  .redirect-profile button{
+    margin-top: 30px;
+  }
+  
+  .redirect-profile button a{
+    text-decoration: none;
+    color: var(--color-white)
+  }
+  
+  /* Info Profile */
+  .info-profile {
+    margin-top: 30px;
+  }
+  .company a,.location a,.link a{
+    text-decoration: none;
+    color: var(--color-white)
+  }
+  
+  .company,.location {
+    margin-bottom: 13px;
+  }
+  .company svg,.location svg, .link svg {
+    font-size: 18px;
+    color: #8B949E;
+  }
+  .link a, .location a,.company a{
+   
+    font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  

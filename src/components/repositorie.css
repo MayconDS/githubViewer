@@ -1,0 +1,34 @@
+.repositorie {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid #30363D;
+    padding: 5px;
+    border-radius: 7px;
+}
+.repositorie svg {
+    width: 14px;
+    height: 14px;
+    background-color: #F1E05A;
+    color: #F1E05A;
+    border-radius: 50%;
+    
+}
+span {
+    color: #8B949E;
+    font-size: 15px;
+}
+.name a{
+    text-decoration: none;
+    margin-bottom: 6px;
+    color:#58A6FF
+}
+.description {
+    margin-bottom: 5px;
+}
+.language span{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px
+}
