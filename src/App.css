@@ -6,6 +6,7 @@ body {
 
 main {
   display: flex;
+  
 }
 
 img {
@@ -27,6 +28,7 @@ section.left {
 
 /* Section Right */
 section.right {
+  display :flex;
   margin-left: 620px;
 }
 
@@ -72,7 +74,7 @@ header {
   background-color: #0D1117
 }
 .right-container {
-  
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 15vh -70px;
@@ -111,3 +113,36 @@ button.btn:hover {
   opacity: 0.9;
 }
 
+
+
+/* Media queries */
+
+@media (max-width: 940px) {
+  .right-content {
+    margin-top: 45px;
+  }
+
+  section.left {
+    width: 450px;
+  }
+  .right-container {
+    width: 140%;
+   margin-left: -120px;
+  }
+}
+
+@media (max-width: 700px) {
+  section.left {
+    position: relative;
+  }
+  main {
+    flex-direction: column;
+  }
+ 
+  section.right {
+    margin-left: 130px;
+    align-items: center;
+    justify-content: center;
+  }
+
+}

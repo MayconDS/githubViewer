@@ -5,6 +5,9 @@
     border: 1px solid #30363D;
     padding: 5px;
     border-radius: 7px;
+    padding: 20px;
+    
+    
 }
 .repositorie svg {
     width: 14px;
@@ -31,4 +34,20 @@ span {
     align-items: center;
     text-align: center;
     gap: 5px
+}
+
+/* Media queries */
+
+@media (max-width: 940px) {
+   
+}
+
+@media (max-width: 600px) {
+
+    .repositorie {
+        width: 82%;
+    }
+    .repositorie span, a {
+        font-size: 14px;
+    }
 }

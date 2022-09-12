@@ -1,4 +1,14 @@
 .card-overview {
+   
     display :flex;
     margin-top: 80px
+}
+
+/* Media queries*/ 
+
+@media (max-width: 600px) {
+    .card-overview {
+        flex-direction:  column;
+        margin-left: -100px;
+    }
 }

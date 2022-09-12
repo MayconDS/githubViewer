@@ -65,3 +65,18 @@
     gap: 10px;
   }
   
+
+/* Media queries */
+
+@media (max-width: 940px) {
+  .left-container .img-profile img {
+    width: 230px;
+  }
+}
+
+@media (max-width: 600px){
+  
+  .left-container .img-profile img {
+    width: 230px;
+  }
+}
