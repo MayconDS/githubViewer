@@ -16,6 +16,7 @@
 }
 button {
   outline: 0;
+  border :none;
 }
 
 button#default {
