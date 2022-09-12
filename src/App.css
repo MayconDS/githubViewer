@@ -39,6 +39,7 @@ input#search {
   border-radius: 4px;
 }
 .search button {
+  outline: 0;
   background-color: transparent;
   color: white;
   margin-left: 5px;
