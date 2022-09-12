@@ -101,6 +101,7 @@ button.btn {
   font-size: 0.93rem;
   background-color: transparent;
   padding-bottom: 10px;
+  border: none;
   color: #C9D1D9;
   display: flex;
   align-items: center;
