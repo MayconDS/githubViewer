@@ -69,7 +69,7 @@ input#search {
 }
 header {
   
-  position: fixed;
+  
   margin-top: -80px;
   background-color: #0D1117
 }
@@ -139,9 +139,15 @@ button.btn:hover {
   main {
     flex-direction: column;
   }
+  header {
+    margin-top: -150px;
+  }
+ .search input{
+  width: 50%;
+ }
  
   section.right {
-    margin-left: 130px;
+    margin-left: 140px;
     align-items: center;
     justify-content: center;
   }

@@ -1,5 +1,5 @@
 .card-overview {
-   
+   width: 890px;
     display :flex;
     margin-top: 80px
 }
@@ -8,7 +8,8 @@
 
 @media (max-width: 600px) {
     .card-overview {
+        width: 80%;
         flex-direction:  column;
-        margin-left: -100px;
+      
     }
 }
