@@ -16,8 +16,6 @@ function App() {
   const [githubState, dispatch] = useContext(GithubContext);
   const [userInput, setUserInput] = useState("");
 
-  console.log(githubState, userInput);
-
   return (
     <main className="main">
       <section className="left">

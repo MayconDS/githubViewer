@@ -12,16 +12,6 @@ const Repositorie = () => {
   const [dataRepositories, setDataRepositories] = useState([]);
   const [githubState] = useContext(GithubContext);
 
-  let date = new Date().getDate("2022-09-11T02:12:07Z");
-  console.log(date * 1000);
-
-  let ruby = "#701516";
-  let js = "#F1E05A";
-  let py = "#3572A5";
-  let c = "#555555";
-  let emcas = "#c065db";
-  let css = "#563d7c";
-
   useEffect(() => {
     const getData = async () => {
       const data = await getRepo(githubState.profile);
