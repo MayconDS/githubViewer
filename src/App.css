@@ -217,7 +217,7 @@ button.btn:hover {
   }
 }
 @media (max-width: 600px) {
-  body {
-    overflow-x: hidden;
+  section.left {
+    left: 6px;
   }
 }
