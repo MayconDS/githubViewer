@@ -10,8 +10,8 @@
 
 @media (max-width: 600px) {
     .card-overview {
-        width: 80%;
-        flex-direction:  column;
-      
+        width: 100%;
+        
+    
     }
 }
