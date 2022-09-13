@@ -12,8 +12,7 @@
 .repositorie svg {
     width: 14px;
     height: 14px;
-    background-color: #F1E05A;
-    color: #F1E05A;
+    
     border-radius: 50%;
     
 }
@@ -29,12 +28,33 @@ span {
 .description {
     margin-bottom: 5px;
 }
+.features {
+    display: flex;
+    align-items: center;
+}
 .language span{
+    font-size: 12px;
     display: flex;
     align-items: center;
     text-align: center;
     gap: 5px
 }
+.stars span{
+    
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2px
+}
+.forks span {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2px
+}
+
 
 /* Media queries */
 
