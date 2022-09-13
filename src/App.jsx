@@ -40,7 +40,7 @@ function App() {
                   })
                 }
               >
-                ENVIAR
+                Buscar
               </button>
             </div>
             <nav className="navbar">

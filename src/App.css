@@ -92,10 +92,10 @@ input#search {
 .search button {
   outline: 0;
   background-color: transparent;
-  color: white;
+  color: rgb(45, 44, 44);
   margin-left: 5px;
   font-weight: bold;
-  background-color: #633BBC;
+  background-color: #dddcdd;
   border-radius: 5px;
   padding: 10px 15px;
   cursor: pointer;
