@@ -1,5 +1,5 @@
 body {
-  
+  border: 2px solid red;
   overflow-x: hidden;
 }
 
@@ -75,7 +75,6 @@ header {
   
   
   margin-top: -80px;
-  background-color: #0D1117
 }
 .right-container {
   
@@ -171,5 +170,9 @@ button.btn:hover {
     align-items: center;
     justify-content: center;
   }
-
+}
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
 }
