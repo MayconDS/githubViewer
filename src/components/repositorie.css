@@ -42,7 +42,7 @@ span {
 @media (max-width: 600px) {
 
     .repositorie {
-        width: 82%;
+        width: 100%;
     }
     .repositorie span, a {
         font-size: 14px;
