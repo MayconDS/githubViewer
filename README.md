@@ -3,7 +3,7 @@
 * npm run dev, to run app 
 
 
-<a href="https://github-viewer-peach.vercel.app/" target="_blank"><h1>Live Preview</h1></a>
+<h1><a href="https://github-viewer-peach.vercel.app/" target="_blank">Live Preview</a></h1>
 <img src="https://user-images.githubusercontent.com/86381282/189791578-d5bc71b7-8f58-4b69-a2b7-ef9a2d6d722a.png"/>
 <br/>
 Mobile
